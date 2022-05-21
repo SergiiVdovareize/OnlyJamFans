@@ -471,6 +471,9 @@ section {
   transition: 0.4s;
   height: 100%;
 }
+#more-features .icon-wrapper {
+  text-align: center;
+}
 #more-features .icon {
   float: left;
   width: 80px;
@@ -482,19 +485,6 @@ section {
   height: 100%;
 }
 
-/* #more-features .icon i {
-  color: #666666;
-  font-size: 80px;
-  transition: 0.5s;
-  line-height: 0;
-}
-#more-features .icon i:before {
-  background: #439cd3;
-  /* background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%); */
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 #more-features h4 {
   margin-left: 100px;
   font-weight: 700;
@@ -523,8 +513,14 @@ section {
     float: none;
     text-align: center;
     padding-bottom: 15px;
+    display: inline-block;
   }
   #more-features h4, #more-features p {
+    margin-left: 0;
+    /* text-align: center; */
+  }
+
+  #more-features h4.title {
     margin-left: 0;
     text-align: center;
   }
