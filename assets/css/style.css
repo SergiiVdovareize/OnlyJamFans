@@ -118,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  
 }
 @media (max-width: 768px) {
   #hero .hero-text {
@@ -132,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #fff;
   text-shadow: 2px 2px 4px black;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   #hero h2 {
