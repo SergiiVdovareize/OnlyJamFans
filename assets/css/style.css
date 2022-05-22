@@ -364,6 +364,13 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
+
+#steps .step-description-wrapper{
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+}
+
 #steps .features-row {
   padding: 60px 0 30px 0;
 }
@@ -425,6 +432,10 @@ section {
   #steps .step-img {
     /* width: 100%; */
     max-width: 100%;
+  }
+  #steps .step-description-wrapper {
+    display: block;
+    align-items: initial;
   }
 }
 
