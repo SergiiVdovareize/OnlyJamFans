@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @supports (-webkit-touch-callout : none) {
+  .hero-section-wrapper,
   .hero-section-meme {
     background-attachment: scroll;
   }
@@ -175,14 +176,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  /* border: 2px solid #fff; */
+  border: none;
   color: #000;
   background-color: #fff
 }
 #hero .btn-get-started:hover {
   color: black;
   background: #FFF401;
-  /* border-color: #FFF401; */
 }
 #hero .product-screens {
   position: absolute;
