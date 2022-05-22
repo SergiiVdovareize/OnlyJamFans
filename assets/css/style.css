@@ -387,7 +387,7 @@ section {
 }
 
 #steps :not(.section-header) h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   color: #000;
 }
@@ -624,4 +624,17 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #fff;
+  padding: 30px 0;
+  color: #333;
+  font-size: 14px;
+}
+#footer .glory {
+  font-size: 30px;
 }
