@@ -74,7 +74,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-family: "Montserrat", sans-serif; */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -84,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section-wrapper {
-  /* background-color: #fffcbd; */
   background-image: url("../img/main_bg.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -113,11 +111,6 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
 }
-/* @media (max-height: 640px) {
-  #hero {
-    height: 120vh;
-  }
-} */
 #hero .hero-text {
   position: absolute;
   left: 0;
