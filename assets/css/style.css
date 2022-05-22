@@ -57,13 +57,13 @@ body {
 }
 
 a {
-  color: #1dc8cd;
+  color: #0052CE;
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #1dc9ce;
+  color: #0052CE;
   outline: none;
   text-decoration: none;
 }
@@ -155,8 +155,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  /* font-weight: bold; */
+  font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
@@ -166,13 +166,11 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #fff;
   color: #000;
   background-color: rgba(255, 255, 255, 0.8 );
-  text-shadow: 2px 2px 4px black;
 }
 #hero .btn-get-started:hover {
   color: black;
   background: #FFF401;
   border-color: #FFF401;
-  text-shadow: 2px 2px 4px #555b5e;
 }
 #hero .product-screens {
   position: absolute;
@@ -221,10 +219,12 @@ section {
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
-  font-size: 32px;
+  font-size: 36px;
   color: #111;
   text-align: center;
-  font-weight: 400;
+  /* font-weight: 400; */
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .section-header .section-description {
   text-align: center;
@@ -368,7 +368,7 @@ section {
 }
 
 #steps :not(.section-header) h2 {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
   color: #000;
 }
@@ -381,7 +381,7 @@ section {
 }
 #steps p {
   line-height: 24px;
-  color: #777;
+  color: #000;
   margin-bottom: 30px;
 }
 #steps i {
