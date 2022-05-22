@@ -433,7 +433,7 @@ section {
   max-width: 580px;
 }
 #steps .step-img.bordered {
-  border: 1px gray solid;
+  border: 1px #dfdfdf solid;
 }
 @media (max-width: 992px) {
   #steps .step-img {
